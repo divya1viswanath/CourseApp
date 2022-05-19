@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import View from './Header'
 
 const Course = () => {
     var [Ctitle,setCtitle]=useState("")
@@ -13,6 +14,7 @@ const subData =() => {
 }
   return (
     <div>
+        
          <div className="container">
             <div className="row">                                                                              
                 <div className="col col-12 col-sm-12 col-md-2 col-lg-12 col-xl-12 col-xxl-12">

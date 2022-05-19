@@ -1,8 +1,9 @@
 import React from 'react'
 
-const View = () => {
+const Navbar = () => {
   return (
     <div>
+        
         <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-success">
             <div class="container-fluid">
@@ -13,7 +14,6 @@ const View = () => {
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <Link class="nav-link active" to='/'>Course</Link>
-                    <Link class="nav-link active" to='/view'>Viewall</Link>
                 </div>
                 </div>
             </div>
@@ -23,4 +23,4 @@ const View = () => {
   )
 }
 
-export default View
+export default Navbar
