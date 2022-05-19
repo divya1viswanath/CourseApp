@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import Course from './component/Course';
 import { BrowserRouter, Route, Routes} from 'react-router-dom'
+import Courseview from './component/Courseview';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/'exact element={<Course/>}/>
+          <Route path='/view'exact element={<Courseview/>}/>
         </Routes>                                                                                   
       </BrowserRouter>
       

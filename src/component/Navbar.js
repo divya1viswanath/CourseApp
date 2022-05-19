@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
 const Navbar = () => {
   return (
-    <div>
         
         <div>
         <nav class="navbar navbar-expand-lg navbar-dark bg-success">
@@ -15,11 +15,11 @@ const Navbar = () => {
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <Link class="nav-link active" to='/'>Course</Link>
-                </div>
+                    <Link class="nav-link active" to='/view'>Courseview</Link>
+                </div>                                                                                                                                                                                                                                        
                 </div>
             </div>
         </nav>
-    </div>
     </div>
   )
 }
